@@ -1,0 +1,26 @@
+{
+  "name": "soocarrot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "storybook-generate": "sb-rn-get-stories -js",
+    "storybook": "cross-env STORYBOOK_ENABLED='true' expo start",
+    "storybook:ios": "cross-env STORYBOOK_ENABLED='true' expo start --ios",
+    "storybook:android": "cross-env STORYBOOK_ENABLED='true' expo start --android"
+  },
+  "dependencies": {
+    "expo": "~51.0.16",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@storybook/react-native": "7.6.14",
+    "cross-env": "^7.0.3"
+  },
+  "private": true
+}
